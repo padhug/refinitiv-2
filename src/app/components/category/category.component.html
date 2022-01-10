@@ -1,0 +1,9 @@
+<div id="categoriesSection">
+  <table id="categorylist">
+    <ng-container *ngFor="let category of categories">
+      <tr class="categoryItem" *ngIf="isCategoryCanBeVisible(category)">
+          <td>{{category}}</td>
+      </tr>
+  </ng-container>
+  </table>
+</div>

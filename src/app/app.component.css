@@ -1,0 +1,12 @@
+#searchInput {
+  margin: 10px;
+  padding: 10px;
+
+}
+
+#categoryApp {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
